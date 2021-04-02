@@ -2396,6 +2396,7 @@ function show_convert_to_black_and_white() {
 	$w.center();
 }
 
+setTimeout(image_flip_and_rotate, 400);
 function image_flip_and_rotate(){
 	const $w = new $FormToolWindow(localize("Flip and Rotate"));
 	$w.addClass("flip-and-rotate");
